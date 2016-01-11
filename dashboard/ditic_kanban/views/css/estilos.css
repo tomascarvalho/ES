@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700,400);
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 14px !important; 
+  font-weight: 400 !important;
+  background-color: #EBF2F6 !important;
+}
+
+.navigation {
+  border: none !important;
+  border-radius: 0 !important;
+  background-color: #23B3CF !important;
+}
+
+.navigation ul li {}
+
+.navigation ul li a {
+  font-size: 16px;
+  color: #FFFFFF !important;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.navigation ul li.active a {
+  background: none !important;
+  border-bottom: solid 5px #EBB831 !important;
+}
+
+.navigation span {
+  margin-left: 10px;
+}
+
+.navigation .fa.fa-bell {
+  color: #fff;
+}
+
+.navigation .fa.fa-bell.ring {
+  color: #EBB831;
+}
+
+.navigation .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background: none !important;
+}
+
+.navigation ul.dropdown-menu {
+  margin-right: 40px;
+  background-color: #23B3CF !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.navigation ul.dropdown-menu li {
+  padding-top: 10px;
+}
+
+.navigation ul.dropdown-menu li a:hover {
+  background: none !important;
+}
+
+.nav-tabs li a {
+  text-align: center !important;
+}
+
+/*
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+*/
+
+
+/*TABELA*/
+
+.list-table {
+  margin-top: 40px;
+}
+
+.tab-content {
+  background-color: #FFF;
+  padding-top: 25px!important;
+}
+
+.table tr td {
+  text-align: center;
+  vertical-align: baseline !important;
+}
+
+.yellow {
+  font-weight: 700;
+  background-color: rgba(235,184,49,0.5)
+}
+
+.btn-default {
+  border: none!important;
+  background: none!important;
+}
+
+.btn-default:hover {
+  background: none!important;
+}
+
+.well {
+  background: none!important;
+}
+
+.content #board4 {
+  padding-bottom: 48px!important;
+
+}
+
+.row a {
+  color: black!important;
+}
+
+.content #board3 .opcao {
+  margin-left: 10px!important;
+
+}
+
+.highlight {
+  background-color: rgba(235,184,49,0.5) !important
+}
+
+ .primeiro {
+  border-top: white !important;
+}
+
+.yellow1 {
+  background-color:#EBB831 !important;
+  color: white !important;
+  margin: 10px 40px !important;
+}
+
+.alinhar {
+  padding: 6px 25px !important;
+}
+
+.alinhar1 {
+  padding: 6px 30px !important;
+}
+

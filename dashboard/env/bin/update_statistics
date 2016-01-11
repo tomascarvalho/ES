@@ -1,0 +1,10 @@
+#!/home/rogerio/Desktop/ES/v2/dashboard/env/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'ditic-kanban==0.1','console_scripts','update_statistics'
+__requires__ = 'ditic-kanban==0.1'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('ditic-kanban==0.1', 'console_scripts', 'update_statistics')()
+    )
